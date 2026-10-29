@@ -1,0 +1,6 @@
+{
+  "name": "Play the Game of 3x3 Escape",
+  "description": "Colourful 3D speed-runner adventure obby across 5 distinct worlds with jumping pads, numbered platforms, multiplication heart quiz, rebirths, and custom trails.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

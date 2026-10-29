@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Fredoka', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+}
+
+.font-arcade {
+  font-family: 'Lilita One', 'Fredoka', cursive, sans-serif;
+}
+
+/* Custom 3D cartoon button shadow */
+.btn-3d {
+  transition: all 0.08s ease;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0.28), 0 10px 14px rgba(0, 0, 0, 0.2);
+}
+.btn-3d:active {
+  transform: translateY(4px);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.28), 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Text stroke for obby style badges */
+.text-stroke-sm {
+  -webkit-text-stroke: 1.5px #111827;
+  paint-order: stroke fill;
+}
+
+.text-stroke-md {
+  -webkit-text-stroke: 2.5px #111827;
+  paint-order: stroke fill;
+}
+
+.text-stroke-lg {
+  -webkit-text-stroke: 4px #0f172a;
+  paint-order: stroke fill;
+}
